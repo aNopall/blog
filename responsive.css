@@ -1,0 +1,45 @@
+@media only screen and (max-width: 428px) {
+    .container-2 {
+        max-width: 90%;
+    }
+    hr {
+        width: 12%;
+    }
+    .jumbotron {
+        max-width: 80%;
+        margin: 0 auto 0 auto;
+    }
+    .jumbotron img {
+        width: 220px;
+    }
+    .jumbotron h4 {
+        font-size: 14px;
+    }
+    .jumbotron h1 {
+        font-size: 24px;
+    }
+    .jumbotron p {
+        font-size: 12px;
+    }
+    .wid h1 {
+        margin: 30px auto 20px auto;
+    }
+    .wid p {
+        font-size: 0;
+    }
+    p.mobile {
+        font-family: 'Poppins';
+        font-size: 12px;
+        color: #d5d5d5;
+        margin: 0 40px 30px 40px;
+    }
+    .blog h1 {
+        margin: 30px auto 0 auto;
+    }
+    .card {
+        margin: 20px auto 0 auto;
+    }
+    .footer {
+        font-size: 14px;
+    }
+}

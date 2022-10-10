@@ -1,0 +1,217 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* body {
+    background-color: #212121;
+    font-family: 'Poppins',Helvetica,sans-serif;
+} */
+
+li {
+    list-style: none;
+}
+
+.title {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.title::after {
+    content: '';
+    border-bottom: 0.2rem solid #dc143c;
+    width: 2.5rem;
+    display: block;
+    margin: 0.313rem 0;
+    left: 0;
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.container-2 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* navbar */
+.navbar-brand {
+    font-family: 'Poppins';
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #888;
+    font-family: 'Poppins';
+    font-weight: 500;
+    transition-duration: 0.8s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(asset/icon/hamburger.png);
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent; 
+}
+
+span.contact {
+    background-color: #dc143c;
+    color: #fff;
+    border: 2px solid #dc143c;
+    border-radius: 3.125rem;
+    padding: 5px 20px;
+    transition-duration: 0.8s;
+}
+
+span.contact:hover {
+    background-color: #212121;
+}
+
+/* jumbotron */
+.jumbotron {
+    font-family: 'Poppins';
+    background-color: #212121;
+    color: #fff;
+    max-width: 1200px;
+    margin: 20px auto 0 auto;
+}
+
+.row-home {
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    align-items: center;
+}
+
+.jumbotron h4 {
+    color: #aaa;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.jumbotron p {
+    color: #d5d5d5;
+    font-size: 16px;
+}
+
+/* wid */
+.wid {
+    color: #fff;
+}
+
+.wid h1 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 24px;
+    margin: 70px 0 32px 0;
+}
+
+.wid h4 {
+    font-family: 'Poppins';
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 40px;
+}
+
+.wid p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #d5d5d5;
+    margin: 0 40px;
+}
+
+.bi-file-earmark-code-fill::before {
+    position: absolute;
+}
+
+.bi-display::before {
+    position: absolute;
+}
+
+p.mobile {
+    font-size: 0;
+}
+
+/* blog */
+.blog {
+    color: #fff;
+}
+
+.blog h1 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 24px;
+    margin: 80px 0 -18px 0;
+}
+
+.card {
+    background-color: transparent !important;
+    width: 335px;
+    height: 250px;
+    margin: 50px 0 0 0;
+}
+
+.card a {
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: #fff;
+}
+
+.card p {
+    font-size: 12px;
+    font-family: 'Poppins';
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+/* footer */
+.footer {
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin: 150px 0 30px 0;
+}
+
+/* blog in */
+.blog-in {
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+.blog-in h1 {
+    font-weight: bold;
+    font-size: 48px;
+    margin: 60px 0 20px 0;
+}
+
+.blog-in p {
+    font-size: 16px;
+    text-align: left;
+}
