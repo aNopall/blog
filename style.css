@@ -235,6 +235,22 @@ span.contact:hover {
     text-align: justify;
 }
 
+.blog-in a{
+    font-size: 16px;
+    text-align: justify;
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.blog-in a:hover {
+    color: #d5d5d5;
+}
+
+.blog-in a:active {
+    color: #fff;
+}
+
 .botbar {
     margin-top: 70px;
 }
