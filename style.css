@@ -56,6 +56,12 @@ li {
     margin-right: auto;
 }
 
+.container-4 {
+    max-width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* navbar */
 .navbar-brand {
     font-family: 'Poppins';
@@ -185,6 +191,10 @@ span.contact:hover {
     margin: 50px 0 0 0;
 }
 
+img.card-img-top {
+    border-radius: 0px;
+}
+
 .card a {
     font-size: 18px;
     font-family: 'Poppins';
@@ -232,12 +242,12 @@ span.contact:hover {
 
 .blog-in p {
     font-size: 16px;
-    text-align: justify;
+    text-align: left;
 }
 
 .blog-in a{
     font-size: 16px;
-    text-align: justify;
+    text-align: left;
     color: #fff;
     text-decoration: none;
     transition-duration: 0.4s;
